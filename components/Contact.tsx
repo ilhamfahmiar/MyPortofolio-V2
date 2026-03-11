@@ -29,7 +29,7 @@ export default function Contact() {
   return (
     <section id="contact" className="py-24">
       <div className="max-w-6xl mx-auto px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 observe-animation">
           <span className="inline-block text-sm text-primary font-semibold uppercase tracking-wider mb-4">
             Get in touch
           </span>
@@ -44,7 +44,7 @@ export default function Contact() {
 
         <div className="grid md:grid-cols-[1fr_1.5fr] gap-16 mt-16">
           {/* Contact Info */}
-          <div className="space-y-6">
+          <div className="space-y-6 observe-animation">
             <div className="flex gap-6 p-6 bg-gray-50 rounded-xl">
               <div className="w-12 h-12 btn-gradient rounded-lg flex items-center justify-center shrink-0">
                 <svg

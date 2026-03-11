@@ -54,7 +54,7 @@ export default function Projects() {
   return (
     <section id="projects" className="py-24 bg-gray-50">
       <div className="max-w-6xl mx-auto px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 observe-animation">
           <span className="inline-block text-sm text-primary font-semibold uppercase tracking-wider mb-4">
             My work
           </span>
@@ -89,7 +89,7 @@ export default function Projects() {
           {filteredProjects.map((project, index) => (
             <div
               key={index}
-              className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-250 group"
+              className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-250 group observe-animation"
             >
               <div className="relative aspect-[16/10] overflow-hidden">
                 <div

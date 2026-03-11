@@ -10,7 +10,7 @@ export default function Hero() {
     >
       <div className="max-w-6xl mx-auto px-8 py-20 w-full">
         <div className="grid md:grid-cols-2 gap-16 items-center">
-          <div>
+          <div className="slide-in-left">
             <span className="inline-block text-base text-primary font-semibold mb-4">
               Hi, I'm
             </span>
@@ -40,8 +40,8 @@ export default function Hero() {
               </a>
             </div>
           </div>
-          <div className="flex justify-center">
-            <div className="w-full max-w-md aspect-square">
+          <div className="flex justify-center slide-in-right">
+            <div className="w-full max-w-md aspect-square pulse-animation">
               <svg
                 viewBox="0 0 200 200"
                 xmlns="http://www.w3.org/2000/svg"
@@ -57,7 +57,7 @@ export default function Hero() {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="scroll-indicator absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-gray-500 text-sm">
+      <div className="scroll-indicator absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-gray-500 text-sm hidden md:flex">
         <span>Scroll Down</span>
         <div
           className="w-5 h-5 border-r-2 border-b-2 border-primary"

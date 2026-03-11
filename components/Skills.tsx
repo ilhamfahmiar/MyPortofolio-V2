@@ -124,18 +124,18 @@ export default function Skills() {
   return (
     <section id="skills" className="py-24">
       <div className="max-w-6xl mx-auto px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 observe-animation">
           <span className="inline-block text-sm text-primary font-semibold uppercase tracking-wider mb-4">
             What I do
           </span>
           <h2 className="text-4xl md:text-5xl font-bold">Skills & Expertise</h2>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 stagger-animation">
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="p-8 bg-white rounded-xl shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-250"
+              className="p-8 bg-white rounded-xl shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-250 observe-animation hover-lift"
             >
               <div
                 className="w-16 h-16 rounded-lg flex items-center justify-center mb-6 text-primary"
