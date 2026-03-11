@@ -57,7 +57,7 @@ export default function Hero() {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="scroll-indicator absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-gray-500 text-sm hidden md:flex">
+      <div className="scroll-indicator absolute bottom-8 left-1/2 -translate-x-1/2 md:flex flex-col items-center gap-2 text-gray-500 text-sm hidden">
         <span>Scroll Down</span>
         <div
           className="w-5 h-5 border-r-2 border-b-2 border-primary"
