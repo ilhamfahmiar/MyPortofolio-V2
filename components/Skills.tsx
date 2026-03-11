@@ -52,7 +52,13 @@ export default function Skills() {
               key={index}
               className="p-8 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow"
             >
-              <div className="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center mb-6 opacity-80">
+              <div
+                className="w-16 h-16 rounded-lg flex items-center justify-center mb-6 opacity-80"
+                style={{
+                  background:
+                    "linear-gradient(to bottom right, #667eea, #764ba2)",
+                }}
+              >
                 <svg
                   className="w-8 h-8 text-white"
                   fill="none"

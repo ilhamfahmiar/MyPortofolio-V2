@@ -83,7 +83,13 @@ export default function Projects() {
               key={index}
               className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow"
             >
-              <div className="h-48 bg-gradient-to-br from-primary to-secondary opacity-80"></div>
+              <div
+                className="h-48 opacity-80"
+                style={{
+                  background:
+                    "linear-gradient(to bottom right, #667eea, #764ba2)",
+                }}
+              ></div>
               <div className="p-6">
                 <div className="flex gap-2 mb-3">
                   {project.tags.map((tag, i) => (

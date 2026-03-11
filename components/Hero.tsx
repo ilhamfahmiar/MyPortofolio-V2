@@ -30,7 +30,13 @@ export default function Hero() {
             </div>
           </div>
           <div className="flex justify-center">
-            <div className="w-80 h-80 bg-gradient-to-br from-primary to-secondary rounded-full opacity-20 animate-pulse"></div>
+            <div
+              className="w-80 h-80 rounded-full opacity-20 animate-pulse"
+              style={{
+                background:
+                  "linear-gradient(to bottom right, #667eea, #764ba2)",
+              }}
+            ></div>
           </div>
         </div>
       </div>

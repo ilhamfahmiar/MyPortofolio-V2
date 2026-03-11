@@ -45,7 +45,13 @@ export default function About() {
           </div>
 
           <div className="flex justify-center">
-            <div className="w-96 h-96 bg-gradient-to-br from-primary to-secondary rounded-2xl opacity-20"></div>
+            <div
+              className="w-96 h-96 rounded-2xl opacity-20"
+              style={{
+                background:
+                  "linear-gradient(to bottom right, #667eea, #764ba2)",
+              }}
+            ></div>
           </div>
         </div>
       </div>
